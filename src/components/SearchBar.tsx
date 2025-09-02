@@ -45,7 +45,7 @@ export const SearchBar = ({ onSearch, isLoading = false, placeholder = "Enter an
       {/* Quick suggestions */}
       <div className="mt-4 flex flex-wrap gap-2 justify-center">
         <span className="text-sm text-muted-foreground">Popular:</span>
-        {['chicken', 'beef', 'pasta', 'rice', 'tomato', 'cheese'].map((suggestion) => (
+        {['chicken', 'pork', 'rice', 'tomato', 'cheese'].map((suggestion) => (
           <Button
             key={suggestion}
             variant="outline"
