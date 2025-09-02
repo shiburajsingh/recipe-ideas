@@ -29,7 +29,7 @@ export const SearchBar = ({ onSearch, isLoading = false, placeholder = "Enter an
             value={ingredient}
             onChange={(e) => setIngredient(e.target.value)}
             placeholder={placeholder}
-            className="pl-10 pr-24 h-12 text-base bg-card border-2 border-border focus:border-primary transition-colors"
+            className="pl-10 pr-24 h-12 text-base bg-card text-foreground border-2 border-border focus:border-primary transition-colors"
             disabled={isLoading}
           />
           <Button
@@ -55,7 +55,7 @@ export const SearchBar = ({ onSearch, isLoading = false, placeholder = "Enter an
               onSearch(suggestion);
             }}
             disabled={isLoading}
-            className="text-xs capitalize hover:bg-primary hover:text-primary-foreground transition-colors"
+            className="text-xs capitalize text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             {suggestion}
           </Button>
