@@ -5,8 +5,8 @@ A simple and user-friendly web application that helps users discover new recipes
 ---
 
 ## 🚀 Project Info  
-- **Live Demo**: [Click here to open on StackBlitz](https://stackblitz.com/github/shiburajsingh/recipe-swift)  
-- **Repository**: [GitHub Repo](https://github.com/shiburajsingh/recipe-swift)  
+- **Live Demo**: [Click here to open on StackBlitz](https://stackblitz.com/github/shiburajsingh/recipe-ideas)  
+- **Repository**: [GitHub Repo](https://github.com/shiburajsingh/recipe-ideas)  
 
 ---
 
@@ -35,10 +35,10 @@ Clone the repository and run locally:
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/shiburajsingh/recipe-swift.git
+git clone https://github.com/shiburajsingh/recipe-ideas.git
 
 # Step 2: Navigate to the project directory
-cd recipe-swift
+cd recipe-ideas
 
 # Step 3: Install dependencies
 npm install
