@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🍳 Recipe Ideas App  
 
-## Project info
+A simple and user-friendly web application that helps users discover new recipes based on available ingredients. Built with **React, TypeScript, Tailwind CSS, Vite, and shadcn-ui**.  
 
-**URL**: https://lovable.dev/projects/c4eeb985-2d05-43ec-8c05-b44014c24ecc
+---
 
-## How can I edit this code?
+## 🚀 Project Info  
+- **Live Demo**: [Click here to open on StackBlitz](https://stackblitz.com/github/shiburajsingh/recipe-swift)  
+- **Repository**: [GitHub Repo](https://github.com/shiburajsingh/recipe-swift)  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features  
+- 🔍 Search recipes by ingredient (via [TheMealDB API](https://www.themealdb.com/api.php))  
+- 📖 Recipe details page with instructions, ingredients, and YouTube video link  
+- 🎛️ Filters for cuisine, time, and diet preferences  
+- ⭐ Save favorite recipes (stored in localStorage)  
+- 📱 Fully responsive design (mobile + desktop)  
+- ⚡ Fast, lightweight, and deployed on StackBlitz  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c4eeb985-2d05-43ec-8c05-b44014c24ecc) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack  
+- [React](https://react.dev/) – Frontend framework  
+- [Vite](https://vitejs.dev/) – Lightning-fast build tool  
+- [TypeScript](https://www.typescriptlang.org/) – Strongly typed JS  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling  
+- [shadcn/ui](https://ui.shadcn.com/) – Accessible component library  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation & Setup  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Clone the repository and run locally:  
 
-Follow these steps:
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/shiburajsingh/recipe-swift.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 2: Navigate to the project directory
+cd recipe-swift
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 3: Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Run the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173/` (Vite default).  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📸 Screenshots  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🔹 Home Page  
+![Home Page](15ca9218-e22f-4529-88d6-a06c26dc5777.png)  
 
-## What technologies are used for this project?
+### 🔹 Footer & Quick Links  
+![Footer](b027f3fc-db14-44d9-8d1a-f5d00a52f579.png)  
 
-This project is built with:
+### 🔹 Recipe Search Results  
+![Recipe Results](8abcb4e4-ddc9-47db-ada6-288669e4ba93.png)  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📄 License  
+This project is created and maintained by **Shibu Raj Singh**.  
+Feel free to fork and use it for learning purposes.  
 
-Simply open [Lovable](https://lovable.dev/projects/c4eeb985-2d05-43ec-8c05-b44014c24ecc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
