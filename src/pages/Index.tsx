@@ -162,8 +162,8 @@ const Index = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
               {[
                 { ingredient: 'Chicken', emoji: '🐔' },
-                { ingredient: 'Pasta', emoji: '🍝' },
-                { ingredient: 'Beef', emoji: '🥩' },
+                { ingredient: 'Pork', emoji: '🥓' },
+                { ingredient: 'Cheese', emoji: '🧀' },
                 { ingredient: 'Rice', emoji: '🍚' }
               ].map(({ ingredient, emoji }) => (
                 <Button
