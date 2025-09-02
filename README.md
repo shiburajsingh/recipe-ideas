@@ -51,20 +51,8 @@ The app will be available at `http://localhost:5173/` (Vite default).
 
 ---
 
-## 📸 Screenshots  
-
-### 🔹 Home Page  
-![Home Page](15ca9218-e22f-4529-88d6-a06c26dc5777.png)  
-
-### 🔹 Footer & Quick Links  
-![Footer](b027f3fc-db14-44d9-8d1a-f5d00a52f579.png)  
-
-### 🔹 Recipe Search Results  
-![Recipe Results](8abcb4e4-ddc9-47db-ada6-288669e4ba93.png)  
-
----
-
 ## 📄 License  
 This project is created and maintained by **Shibu Raj Singh**.  
 Feel free to fork and use it for learning purposes.  
+
 
